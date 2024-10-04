@@ -1,11 +1,11 @@
 import { d as createAstro, c as createComponent, r as renderTemplate, a as renderComponent, F as Fragment, m as maybeRenderHead } from '../chunks/astro/server_CNq7f-vl.mjs';
 import 'kleur/colors';
-import { $ as $$CallToAction } from '../chunks/CallToAction_DAoR4DFv.mjs';
-import { $ as $$Content } from '../chunks/Content_CyAaEL5m.mjs';
-import { $ as $$Features2 } from '../chunks/Features2_D3Hk0skV.mjs';
-import { $ as $$Hero } from '../chunks/Hero_i73lyu4H.mjs';
-import { $ as $$Testimonials } from '../chunks/Testimonials_pJjFnRbM.mjs';
-import { $ as $$PageLayout } from '../chunks/PageLayout_Cm7DXFsr.mjs';
+import { $ as $$CallToAction } from '../chunks/CallToAction_hkWVtAJR.mjs';
+import { $ as $$Content } from '../chunks/Content_CjJVgoz1.mjs';
+import { $ as $$Features2 } from '../chunks/Features2__TFaqsI2.mjs';
+import { $ as $$Hero } from '../chunks/Hero_D2BPs14u.mjs';
+import { $ as $$Testimonials } from '../chunks/Testimonials_CgDGwg26.mjs';
+import { $ as $$PageLayout } from '../chunks/PageLayout_CMJlZsNX.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Astro = createAstro("https://astrowind.vercel.app");
@@ -152,9 +152,9 @@ const $$Services = createComponent(($$result, $$props, $$slots) => {
       href: "/"
     }
   ], "title": "Dive into our template collection", "subtitle": "Whether you're in business, design, or education, our templates are here to elevate your projects." })} ` })}`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/services.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/pages/services.astro", void 0);
 
-const $$file = "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/services.astro";
+const $$file = "/Users/dandele/Desktop/astroship/astrowind/src/pages/services.astro";
 const $$url = "/services";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

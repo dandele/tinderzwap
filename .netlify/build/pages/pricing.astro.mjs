@@ -1,12 +1,12 @@
 import { c as createComponent, r as renderTemplate, a as renderComponent } from '../chunks/astro/server_CNq7f-vl.mjs';
 import 'kleur/colors';
-import { $ as $$PageLayout } from '../chunks/PageLayout_Cm7DXFsr.mjs';
-import { $ as $$HeroText } from '../chunks/HeroText_CNWzIhn8.mjs';
-import { $ as $$Pricing$1 } from '../chunks/Pricing_BmBEtehb.mjs';
-import { $ as $$FAQs } from '../chunks/FAQs_Bm2bb-uY.mjs';
-import { $ as $$Steps } from '../chunks/Steps_CF3yyUoO.mjs';
-import { $ as $$Features3 } from '../chunks/Features3_B-flgQw2.mjs';
-import { $ as $$CallToAction } from '../chunks/CallToAction_DAoR4DFv.mjs';
+import { $ as $$PageLayout } from '../chunks/PageLayout_CMJlZsNX.mjs';
+import { $ as $$HeroText } from '../chunks/HeroText_CqFPiyPj.mjs';
+import { $ as $$Pricing$1 } from '../chunks/Pricing_B3r5Idg0.mjs';
+import { $ as $$FAQs } from '../chunks/FAQs_CiwyRyRz.mjs';
+import { $ as $$Steps } from '../chunks/Steps_DxULxTwr.mjs';
+import { $ as $$Features3 } from '../chunks/Features3_BZP9jGRh.mjs';
+import { $ as $$CallToAction } from '../chunks/CallToAction_hkWVtAJR.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Pricing = createComponent(($$result, $$props, $$slots) => {
@@ -185,9 +185,9 @@ const $$Pricing = createComponent(($$result, $$props, $$slots) => {
       href: "/"
     }
   ] })} ` })}`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/pricing.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/pages/pricing.astro", void 0);
 
-const $$file = "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/pricing.astro";
+const $$file = "/Users/dandele/Desktop/astroship/astrowind/src/pages/pricing.astro";
 const $$url = "/pricing";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

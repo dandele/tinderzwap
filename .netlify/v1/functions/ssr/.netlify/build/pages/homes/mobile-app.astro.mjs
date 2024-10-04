@@ -1,15 +1,15 @@
 import { d as createAstro, c as createComponent, r as renderTemplate, a as renderComponent, F as Fragment, m as maybeRenderHead } from '../../chunks/astro/server_CNq7f-vl.mjs';
 import 'kleur/colors';
-import { a as $$Header, $ as $$PageLayout } from '../../chunks/PageLayout_Cm7DXFsr.mjs';
-import { $ as $$Hero2 } from '../../chunks/Hero2_DPisetO1.mjs';
-import { $ as $$CallToAction } from '../../chunks/CallToAction_DAoR4DFv.mjs';
-import { $ as $$Features3 } from '../../chunks/Features3_B-flgQw2.mjs';
-import { $ as $$Content } from '../../chunks/Content_CyAaEL5m.mjs';
-import { $ as $$Testimonials } from '../../chunks/Testimonials_pJjFnRbM.mjs';
-import { $ as $$FAQs } from '../../chunks/FAQs_Bm2bb-uY.mjs';
-import { $ as $$Stats } from '../../chunks/Stats_D0z-z7fv.mjs';
-import { $ as $$Button } from '../../chunks/Button_lBQCpbjG.mjs';
-import { $ as $$Image } from '../../chunks/Image_i8ppNBIW.mjs';
+import { a as $$Header, $ as $$PageLayout } from '../../chunks/PageLayout_CMJlZsNX.mjs';
+import { $ as $$Hero2 } from '../../chunks/Hero2_DbFc6sZw.mjs';
+import { $ as $$CallToAction } from '../../chunks/CallToAction_hkWVtAJR.mjs';
+import { $ as $$Features3 } from '../../chunks/Features3_BZP9jGRh.mjs';
+import { $ as $$Content } from '../../chunks/Content_CjJVgoz1.mjs';
+import { $ as $$Testimonials } from '../../chunks/Testimonials_CgDGwg26.mjs';
+import { $ as $$FAQs } from '../../chunks/FAQs_CiwyRyRz.mjs';
+import { $ as $$Stats } from '../../chunks/Stats_DNOkGsYv.mjs';
+import { $ as $$Button } from '../../chunks/Button_Dx11x9v3.mjs';
+import { $ as $$Image } from '../../chunks/Image_D65kYRI3.mjs';
 export { renderers } from '../../renderers.mjs';
 
 const $$Astro = createAstro("https://astrowind.vercel.app");
@@ -170,9 +170,9 @@ Download now and embark on a journey to elevate your projects like never before.
       href: "#download"
     }
   ], "isSticky": true, "showToggleTheme": true })} ` })}` })}`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/homes/mobile-app.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/pages/homes/mobile-app.astro", void 0);
 
-const $$file = "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/homes/mobile-app.astro";
+const $$file = "/Users/dandele/Desktop/astroship/astrowind/src/pages/homes/mobile-app.astro";
 const $$url = "/homes/mobile-app";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

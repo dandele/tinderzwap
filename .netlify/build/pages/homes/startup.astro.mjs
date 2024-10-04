@@ -1,18 +1,18 @@
 import { d as createAstro, c as createComponent, r as renderTemplate, a as renderComponent, m as maybeRenderHead, F as Fragment } from '../../chunks/astro/server_CNq7f-vl.mjs';
 import 'kleur/colors';
-import { $ as $$PageLayout } from '../../chunks/PageLayout_Cm7DXFsr.mjs';
-import { $ as $$Hero } from '../../chunks/Hero_i73lyu4H.mjs';
-import { $ as $$CallToAction } from '../../chunks/CallToAction_DAoR4DFv.mjs';
-import { $ as $$Features2 } from '../../chunks/Features2_D3Hk0skV.mjs';
-import { $ as $$Features } from '../../chunks/Features_BGjNjeZ6.mjs';
-import { $ as $$Stats } from '../../chunks/Stats_D0z-z7fv.mjs';
-import { $ as $$Features3 } from '../../chunks/Features3_B-flgQw2.mjs';
-import { $ as $$FAQs } from '../../chunks/FAQs_Bm2bb-uY.mjs';
-import { $ as $$Icon } from '../../chunks/Icon_Bwnc2Aj4.mjs';
-import { $ as $$Image } from '../../chunks/Image_i8ppNBIW.mjs';
-import { $ as $$Headline } from '../../chunks/Headline_DxIBtzhe.mjs';
-import { $ as $$WidgetWrapper } from '../../chunks/WidgetWrapper_CQCcBaL3.mjs';
-import { $ as $$YouTube } from '../../chunks/LinkPreview_67hFB5Dq.mjs';
+import { $ as $$PageLayout } from '../../chunks/PageLayout_CMJlZsNX.mjs';
+import { $ as $$Hero } from '../../chunks/Hero_D2BPs14u.mjs';
+import { $ as $$CallToAction } from '../../chunks/CallToAction_hkWVtAJR.mjs';
+import { $ as $$Features2 } from '../../chunks/Features2__TFaqsI2.mjs';
+import { $ as $$Features } from '../../chunks/Features_DCf0CI--.mjs';
+import { $ as $$Stats } from '../../chunks/Stats_DNOkGsYv.mjs';
+import { $ as $$Features3 } from '../../chunks/Features3_BZP9jGRh.mjs';
+import { $ as $$FAQs } from '../../chunks/FAQs_CiwyRyRz.mjs';
+import { $ as $$Icon } from '../../chunks/Icon_CQBtO9yJ.mjs';
+import { $ as $$Image } from '../../chunks/Image_D65kYRI3.mjs';
+import { $ as $$Headline } from '../../chunks/Headline_ChuZIQCI.mjs';
+import { $ as $$WidgetWrapper } from '../../chunks/WidgetWrapper_CjxI3x_R.mjs';
+import { $ as $$YouTube } from '../../chunks/LinkPreview_ClNvW_GK.mjs';
 export { renderers } from '../../renderers.mjs';
 
 const $$Astro$1 = createAstro("https://astrowind.vercel.app");
@@ -33,7 +33,7 @@ const $$Brands = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate`${renderComponent($$result, "WidgetWrapper", $$WidgetWrapper, { "id": id, "isDark": isDark, "containerClass": `max-w-6xl mx-auto ${classes?.container ?? ""}`, "bg": bg }, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Headline", $$Headline, { "title": title, "subtitle": subtitle, "tagline": tagline })} ${maybeRenderHead()}<div class="flex flex-wrap justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24"> ${icons && icons.map((icon) => renderTemplate`${renderComponent($$result2, "Icon", $$Icon, { "name": icon, "class": "py-3 lg:py-5 w-12 h-auto mx-auto sm:mx-0 text-gray-500" })}`)} ${images && images.map(
     (image) => image.src && renderTemplate`<div class="flex justify-center col-span-1 my-2 lg:my-4 py-1 px-3 rounded-md dark:bg-gray-200"> ${renderComponent($$result2, "Image", $$Image, { "src": image.src, "alt": image.alt || "", "class": "max-h-12", "width": 120, "height": 48, "layout": "fixed" })} </div>`
   )} </div> ` })}`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/components/widgets/Brands.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/components/widgets/Brands.astro", void 0);
 
 const $$Astro = createAstro("https://astrowind.vercel.app");
 const $$Startup = createComponent(($$result, $$props, $$slots) => {
@@ -228,9 +228,9 @@ Improve <span class="hidden sm:inline">the online presence of</span> your <span 
 Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
       impact.
 ` })}`, "title": ($$result3) => renderTemplate`${renderComponent($$result3, "Fragment", Fragment, { "slot": "title" }, { "default": ($$result4) => renderTemplate`Be a part of our vision` })}` })} ` })}`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/homes/startup.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/pages/homes/startup.astro", void 0);
 
-const $$file = "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/homes/startup.astro";
+const $$file = "/Users/dandele/Desktop/astroship/astrowind/src/pages/homes/startup.astro";
 const $$url = "/homes/startup";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

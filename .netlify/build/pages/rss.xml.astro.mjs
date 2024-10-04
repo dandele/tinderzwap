@@ -1,6 +1,6 @@
 import { getRssString } from '@astrojs/rss';
 import { S as SITE, M as METADATA, a as getPermalink } from '../chunks/permalinks_Dg4XypGM.mjs';
-import { f as fetchPosts } from '../chunks/blog_B43LUh_E.mjs';
+import { f as fetchPosts } from '../chunks/blog_D_1iKPOh.mjs';
 export { renderers } from '../renderers.mjs';
 
 const GET = async () => {

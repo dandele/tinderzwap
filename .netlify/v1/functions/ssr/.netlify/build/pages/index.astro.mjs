@@ -1,22 +1,22 @@
 import { c as createComponent, r as renderTemplate, m as maybeRenderHead, a as renderComponent, d as createAstro, F as Fragment } from '../chunks/astro/server_CNq7f-vl.mjs';
 import 'kleur/colors';
-import { $ as $$PageLayout } from '../chunks/PageLayout_Cm7DXFsr.mjs';
-import { $ as $$Hero } from '../chunks/Hero_i73lyu4H.mjs';
-import { $ as $$Icon } from '../chunks/Icon_Bwnc2Aj4.mjs';
-import { $ as $$Features } from '../chunks/Features_BGjNjeZ6.mjs';
-import { $ as $$Features2 } from '../chunks/Features2_D3Hk0skV.mjs';
-import { $ as $$Steps } from '../chunks/Steps_CF3yyUoO.mjs';
-import { $ as $$Content } from '../chunks/Content_CyAaEL5m.mjs';
-import { $ as $$BlogLatestPosts } from '../chunks/BlogLatestPosts_BfFIkAyN.mjs';
-import { $ as $$FAQs } from '../chunks/FAQs_Bm2bb-uY.mjs';
-import { $ as $$Stats } from '../chunks/Stats_D0z-z7fv.mjs';
-import { $ as $$CallToAction } from '../chunks/CallToAction_DAoR4DFv.mjs';
+import { $ as $$PageLayout } from '../chunks/PageLayout_CMJlZsNX.mjs';
+import { $ as $$Hero } from '../chunks/Hero_D2BPs14u.mjs';
+import { $ as $$Icon } from '../chunks/Icon_CQBtO9yJ.mjs';
+import { $ as $$Features } from '../chunks/Features_DCf0CI--.mjs';
+import { $ as $$Features2 } from '../chunks/Features2__TFaqsI2.mjs';
+import { $ as $$Steps } from '../chunks/Steps_DxULxTwr.mjs';
+import { $ as $$Content } from '../chunks/Content_CjJVgoz1.mjs';
+import { $ as $$BlogLatestPosts } from '../chunks/BlogLatestPosts_CeQH7L7P.mjs';
+import { $ as $$FAQs } from '../chunks/FAQs_CiwyRyRz.mjs';
+import { $ as $$Stats } from '../chunks/Stats_DNOkGsYv.mjs';
+import { $ as $$CallToAction } from '../chunks/CallToAction_hkWVtAJR.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Note = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<section class="bg-blue-50 dark:bg-slate-800 not-prose"> <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 text-md text-center font-medium"> <span class="font-bold"> ${renderComponent($$result, "Icon", $$Icon, { "name": "tabler:info-square", "class": "w-5 h-5 inline-block align-text-bottom" })} Philosophy:</span> Simplicity, Best Practices and High Performance
 </div> </section>`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/components/widgets/Note.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/components/widgets/Note.astro", void 0);
 
 const $$Astro = createAstro("https://astrowind.vercel.app");
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {
@@ -240,9 +240,9 @@ Be very surprised by these huge fake numbers you are seeing on this page. <br cl
       waste more time! :P
 ` })}`, "title": ($$result3) => renderTemplate`${renderComponent($$result3, "Fragment", Fragment, { "slot": "title" }, { "default": ($$result4) => renderTemplate`
 Astro&nbsp;+&nbsp;<br class="block sm:hidden"><span class="sm:whitespace-nowrap">Tailwind CSS</span> ` })}` })} ` })}`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/index.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/pages/index.astro", void 0);
 
-const $$file = "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/index.astro";
+const $$file = "/Users/dandele/Desktop/astroship/astrowind/src/pages/index.astro";
 const $$url = "";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

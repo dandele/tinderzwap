@@ -1,8 +1,8 @@
 import { c as createComponent, r as renderTemplate, a as renderComponent } from '../../chunks/astro/server_CNq7f-vl.mjs';
 import 'kleur/colors';
-import { $ as $$LandingLayout } from '../../chunks/LandingLayout_C1D_VHyy.mjs';
-import { $ as $$Hero } from '../../chunks/Hero_i73lyu4H.mjs';
-import { $ as $$CallToAction } from '../../chunks/CallToAction_DAoR4DFv.mjs';
+import { $ as $$LandingLayout } from '../../chunks/LandingLayout_BVQOFLDE.mjs';
+import { $ as $$Hero } from '../../chunks/Hero_D2BPs14u.mjs';
+import { $ as $$CallToAction } from '../../chunks/CallToAction_hkWVtAJR.mjs';
 export { renderers } from '../../renderers.mjs';
 
 const $$Product = createComponent(($$result, $$props, $$slots) => {
@@ -23,9 +23,9 @@ const $$Product = createComponent(($$result, $$props, $$slots) => {
       icon: "tabler:download"
     }
   ] })} ` })}`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/landing/product.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/pages/landing/product.astro", void 0);
 
-const $$file = "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/landing/product.astro";
+const $$file = "/Users/dandele/Desktop/astroship/astrowind/src/pages/landing/product.astro";
 const $$url = "/landing/product";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

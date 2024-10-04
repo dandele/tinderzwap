@@ -1,11 +1,11 @@
 import { c as createComponent, r as renderTemplate, a as renderComponent, F as Fragment, m as maybeRenderHead } from '../chunks/astro/server_CNq7f-vl.mjs';
 import 'kleur/colors';
-import { $ as $$Features2 } from '../chunks/Features2_D3Hk0skV.mjs';
-import { $ as $$Features3 } from '../chunks/Features3_B-flgQw2.mjs';
-import { $ as $$Hero } from '../chunks/Hero_i73lyu4H.mjs';
-import { $ as $$Stats } from '../chunks/Stats_D0z-z7fv.mjs';
-import { $ as $$Steps2 } from '../chunks/Steps2_DTUgiqUK.mjs';
-import { $ as $$PageLayout } from '../chunks/PageLayout_Cm7DXFsr.mjs';
+import { $ as $$Features2 } from '../chunks/Features2__TFaqsI2.mjs';
+import { $ as $$Features3 } from '../chunks/Features3_BZP9jGRh.mjs';
+import { $ as $$Hero } from '../chunks/Hero_D2BPs14u.mjs';
+import { $ as $$Stats } from '../chunks/Stats_DNOkGsYv.mjs';
+import { $ as $$Steps2 } from '../chunks/Steps2_DdgYM2wU.mjs';
+import { $ as $$PageLayout } from '../chunks/PageLayout_CMJlZsNX.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$About = createComponent(($$result, $$props, $$slots) => {
@@ -136,9 +136,9 @@ Elevate your online presence with our ${maybeRenderHead()}<br> <span class="text
       icon: "tabler:headset"
     }
   ] })} ` })}`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/about.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/pages/about.astro", void 0);
 
-const $$file = "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/about.astro";
+const $$file = "/Users/dandele/Desktop/astroship/astrowind/src/pages/about.astro";
 const $$url = "/about";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

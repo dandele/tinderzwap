@@ -1,13 +1,13 @@
 import { c as createComponent, r as renderTemplate, a as renderComponent, F as Fragment, m as maybeRenderHead } from '../../chunks/astro/server_CNq7f-vl.mjs';
 import 'kleur/colors';
-import { a as $$Header, $ as $$PageLayout } from '../../chunks/PageLayout_Cm7DXFsr.mjs';
-import { $ as $$Hero } from '../../chunks/Hero_i73lyu4H.mjs';
-import { $ as $$Content } from '../../chunks/Content_CyAaEL5m.mjs';
-import { $ as $$CallToAction } from '../../chunks/CallToAction_DAoR4DFv.mjs';
-import { $ as $$Features3 } from '../../chunks/Features3_B-flgQw2.mjs';
-import { $ as $$Testimonials } from '../../chunks/Testimonials_pJjFnRbM.mjs';
-import { $ as $$Steps } from '../../chunks/Steps_CF3yyUoO.mjs';
-import { $ as $$BlogLatestPosts } from '../../chunks/BlogLatestPosts_BfFIkAyN.mjs';
+import { a as $$Header, $ as $$PageLayout } from '../../chunks/PageLayout_CMJlZsNX.mjs';
+import { $ as $$Hero } from '../../chunks/Hero_D2BPs14u.mjs';
+import { $ as $$Content } from '../../chunks/Content_CjJVgoz1.mjs';
+import { $ as $$CallToAction } from '../../chunks/CallToAction_hkWVtAJR.mjs';
+import { $ as $$Features3 } from '../../chunks/Features3_BZP9jGRh.mjs';
+import { $ as $$Testimonials } from '../../chunks/Testimonials_CgDGwg26.mjs';
+import { $ as $$Steps } from '../../chunks/Steps_DxULxTwr.mjs';
+import { $ as $$BlogLatestPosts } from '../../chunks/BlogLatestPosts_CeQH7L7P.mjs';
 import { a as getPermalink } from '../../chunks/permalinks_Dg4XypGM.mjs';
 export { renderers } from '../../renderers.mjs';
 
@@ -239,9 +239,9 @@ Project 3: <br><span class="text-2xl">E-commerce website redesign for fashion br
       href: "#"
     }
   ], "isSticky": true, "showToggleTheme": true })} ` })}` })}`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/homes/personal.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/pages/homes/personal.astro", void 0);
 
-const $$file = "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/homes/personal.astro";
+const $$file = "/Users/dandele/Desktop/astroship/astrowind/src/pages/homes/personal.astro";
 const $$url = "/homes/personal";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

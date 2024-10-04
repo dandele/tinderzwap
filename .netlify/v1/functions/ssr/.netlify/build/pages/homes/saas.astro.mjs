@@ -1,13 +1,13 @@
 import { d as createAstro, c as createComponent, r as renderTemplate, a as renderComponent, F as Fragment, m as maybeRenderHead } from '../../chunks/astro/server_CNq7f-vl.mjs';
 import 'kleur/colors';
-import { a as $$Header, h as headerData, $ as $$PageLayout } from '../../chunks/PageLayout_Cm7DXFsr.mjs';
-import { $ as $$Hero2 } from '../../chunks/Hero2_DPisetO1.mjs';
-import { $ as $$Features } from '../../chunks/Features_BGjNjeZ6.mjs';
-import { $ as $$Steps2 } from '../../chunks/Steps2_DTUgiqUK.mjs';
-import { $ as $$Content } from '../../chunks/Content_CyAaEL5m.mjs';
-import { $ as $$Pricing } from '../../chunks/Pricing_BmBEtehb.mjs';
-import { $ as $$FAQs } from '../../chunks/FAQs_Bm2bb-uY.mjs';
-import { $ as $$BlogLatestPosts } from '../../chunks/BlogLatestPosts_BfFIkAyN.mjs';
+import { a as $$Header, h as headerData, $ as $$PageLayout } from '../../chunks/PageLayout_CMJlZsNX.mjs';
+import { $ as $$Hero2 } from '../../chunks/Hero2_DbFc6sZw.mjs';
+import { $ as $$Features } from '../../chunks/Features_DCf0CI--.mjs';
+import { $ as $$Steps2 } from '../../chunks/Steps2_DdgYM2wU.mjs';
+import { $ as $$Content } from '../../chunks/Content_CjJVgoz1.mjs';
+import { $ as $$Pricing } from '../../chunks/Pricing_B3r5Idg0.mjs';
+import { $ as $$FAQs } from '../../chunks/FAQs_CiwyRyRz.mjs';
+import { $ as $$BlogLatestPosts } from '../../chunks/BlogLatestPosts_CeQH7L7P.mjs';
 export { renderers } from '../../renderers.mjs';
 
 const $$Astro = createAstro("https://astrowind.vercel.app");
@@ -198,9 +198,9 @@ Small business growth: <br><span class="text-2xl">Converting visitors into custo
       href: "#"
     }
   ], "isSticky": true })} ` })}` })}`;
-}, "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/homes/saas.astro", void 0);
+}, "/Users/dandele/Desktop/astroship/astrowind/src/pages/homes/saas.astro", void 0);
 
-const $$file = "/Users/dandele/Desktop/ 1 - Roles/ZwapAlternative/zwapalternative/astroship/astrowind/src/pages/homes/saas.astro";
+const $$file = "/Users/dandele/Desktop/astroship/astrowind/src/pages/homes/saas.astro";
 const $$url = "/homes/saas";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
