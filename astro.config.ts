@@ -10,6 +10,7 @@ import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
 import type { AstroIntegration } from 'astro';
+import netlify from '@astrojs/netlify';
 
 import astrowind from './vendor/integration';
 
@@ -23,6 +24,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'server',
+  adapter: netlify(),
 
   integrations: [
     tailwind({
