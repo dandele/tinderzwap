@@ -11,7 +11,7 @@ metadata:
   title:
     default: Binder
     template: '%s — AstroWind'
-  description: "\U0001F680 Il Tinder del networking italiano. Scegli, prenota, incontra."
+  description: "Il Tinder del business italiano."
   robots:
     index: true
     follow: true
