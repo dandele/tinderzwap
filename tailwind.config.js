@@ -1,3 +1,4 @@
+// tailwind.config.js
 import defaultTheme from 'tailwindcss/defaultTheme';
 import typographyPlugin from '@tailwindcss/typography';
 
@@ -11,6 +12,7 @@ module.exports = {
         accent: '#69F5CA',
         default: 'var(--aw-color-text-default)',
         muted: 'var(--aw-color-text-muted)',
+        'custom-bg': '#060710', // Aggiungi questa linea
       },
       fontFamily: {
         sans: ['var(--aw-font-sans, "Source Sans 3")', ...defaultTheme.fontFamily.sans],

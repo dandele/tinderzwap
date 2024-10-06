@@ -1,8 +1,8 @@
 ---
 import Image from '~/components/common/Image.astro';
 import Button from '~/components/ui/Button.astro';
-import decor1 from '~/assets/images/decor1.svg';
-import decor2 from '~/assets/images/decor2.svg';
+import Background from '~/components/ui/Background.astro'; // Importa il componente Background
+
 
 import type { Hero as Props } from '~/types';
 
@@ -55,17 +55,6 @@ if (Astro.request.method === "POST") {
 }
 ---
 <section class="relative md:-mt-[76px] not-prose" {...id ? { id } : {}}>
-        <!-- Immagini decorative assolute -->
-        <img
-          src={decor1.src}
-          alt="Decorazione 1"
-          class="absolute top-20 right-20 w-16 h-16 sm:w-24 sm:h-24 opacity-50 pointer-events-none"
-        />
-        <img
-          src={decor2.src}
-          alt="Decorazione 2"
-          class="absolute top-40 right-40 w-16 h-16 sm:w-24 sm:h-24 opacity-50 pointer-events-none"
-        />
 
   <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
     <slot name="bg">
@@ -134,7 +123,7 @@ if (Astro.request.method === "POST") {
             required 
             class="form-checkbox h-5 w-5 text-blue-600"
           />
-          <label for="gdpr" class="ml-2 text-sm text-gray-700">
+          <label for="gdpr" class="ml-2 text-sm text-gray-300">
             Ho letto, compreso e accettato le <a href="/privacy" class="text-blue-600 underline">Privacy Policy</a> e desidero ricevere contatti, promozioni e novità. Sono consapevole di poter annullare l'iscrizione in qualsiasi momento. Politica sulla Privacy.
           </label>
         </div>
@@ -153,7 +142,7 @@ if (Astro.request.method === "POST") {
               <Fragment set:html={image} />
             ) : (
               <Image
-                class="mx-auto rounded-md max-w-xs sm:max-w-sm object-contain"
+                class="mx-auto rounded-md max-w-xs sm:max-w-sm object-contain shadow-xl"
                 widths={[200, 400, 600, 800]} 
                 sizes="(max-width: 767px) 200px, (max-width: 1023px) 400px, (max-width: 2039px) 600px, 800px"
                 loading="eager"
