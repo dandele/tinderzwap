@@ -1,9 +1,10 @@
 ---
 import { SITE } from 'astrowind:config';
+import logo from '../assets/images/big_binder.svg';
 ---
 
 <img
-  src="~/assets/images/big_binder.svg" 
+  src={logo.src} 
   alt={SITE?.name || "Logo"} 
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 h-12 w-auto sm:h-16" 
+  class="self-center ml-2 rtl:ml-0 rtl:mr-2 h-12 sm:h-16 w-auto" 
 />
