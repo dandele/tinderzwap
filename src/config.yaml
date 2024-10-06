@@ -1,5 +1,5 @@
 site:
-  name: TinderZwap
+  name: Binder
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: TinderZwap
+    default: Binder
     template: '%s — AstroWind'
   description: "\U0001F680 Il Tinder del networking italiano. Scegli, prenota, incontra."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: TinderZwap
+    site_name: Binder
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -69,4 +69,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'dark' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'Binder — Il Tinder del networking italiano',
   ignoreTitleTemplate: true,
 };
 ---
@@ -32,17 +32,15 @@ const metadata = {
       },
       { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/hero-image.svg', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Il tinder del <span class="hidden xl:inline">networking italiano</span>
+      Il tinder del <span class="inline text-primary">networking italiano</span>
     </Fragment>
-
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">TinderZwap</span> è il modo migliore per connetterti con altri professionisti in una call 1 a 1, senza perdite di tempo.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">Scegli, prenota, incontra</span>
+      <span class="sm:inline">
+        <span class="font-semibold text-primary">Binder</span> è il modo migliore per connetterti con altri professionisti con i tuoi stessi interessi di business, in call 1-1 e senza perdite di tempo.
+        </span>
     </Fragment>
   </Hero>
 
