@@ -1,6 +1,6 @@
 site:
   name: Binder
-  site: 'https://astrowind.vercel.app'
+  site: 'https://binderapp.ai'
   base: '/'
   trailingSlash: false
 
@@ -11,14 +11,14 @@ metadata:
   title:
     default: Binder
     template: '%s — AstroWind'
-  description: "Il Tinder del business italiano."
+  description: "Connettiti con menti come la tua!."
   robots:
     index: true
     follow: true
   openGraph:
     site_name: Binder
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/hero-image.png'
         width: 1200
         height: 628
     type: website
