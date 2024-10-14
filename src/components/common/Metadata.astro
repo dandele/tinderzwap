@@ -19,7 +19,7 @@ const {
   ignoreTitleTemplate = false,
   canonical = String(getCanonical(String(Astro.url.pathname))),
   robots = {},
-  description = "Binder è la piattaforma di matching 1-1 e AI-powered, che aiuta i professionisti a connettersi e generare opportunità.",
+  description = "La piattaforma che aiuta i professionisti a connettersi e generare opportunità.",
   openGraph = {},
   twitter = {},
 } = Astro.props;
@@ -31,7 +31,7 @@ const seoProps: AstroSeoProps = merge(
     canonical: canonical,
     noindex: true,
     nofollow: true,
-    description: "Binder è la piattaforma di matching 1-1 e AI-powered, che aiuta i professionisti a connettersi e generare opportunità.",
+    description: "La piattaforma che aiuta i professionisti a connettersi e generare opportunità.",
     openGraph: {
       url: canonical,
       site_name: SITE?.name,
