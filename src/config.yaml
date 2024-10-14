@@ -11,7 +11,7 @@ metadata:
   title:
     default: Binder
     template: '%s — AstroWind'
-  description: "Connettiti con menti come la tua!."
+  description: "Connettiti con menti simili alla tua!."
   robots:
     index: true
     follow: true
