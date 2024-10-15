@@ -68,10 +68,10 @@ if (Astro.request.method === "POST") {
           <p class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase" set:html={tagline} />
         )}
         {title && (
-          <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-white text-primary" set:html={title} />
+          <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-white text-custom-bg" set:html={title} />
         )}
         <div class="max-w-3xl mx-auto">
-          {subtitle && <p class="text-xl text-black mb-6 dark:text-white" set:html={subtitle} />}
+          {subtitle && <p class="text-xl text-custom-bg mb-6 dark:text-white" set:html={subtitle} />}
         </div>
         {content && <Fragment set:html={content} />}
       </div>
@@ -106,7 +106,7 @@ if (Astro.request.method === "POST") {
             type="email" 
             name="email" 
             required 
-            class="flex-grow p-2 border border-gray-300 text-black rounded-md sm:w-2/3 w-full" 
+            class="flex-grow p-2 border border-custom-bg text-custom-bg rounded-md sm:w-2/3 w-full" 
             placeholder="Inserisci la tua email"
           />
           <button type="submit" class="p-2 bg-blue-600 text-white px-8 rounded-md sm:w-auto w-full bg-primary">
@@ -123,7 +123,7 @@ if (Astro.request.method === "POST") {
             required 
             class="form-checkbox h-5 w-5 text-blue-600"
           />
-          <label for="gdpr" class="ml-2 text-sm text-gray-300">
+          <label for="gdpr" class="ml-2 text-sm text-custom-bg">
             Ho letto, compreso e accettato le <a href="/privacy" class="text-primary underline">Privacy Policy</a> e desidero ricevere contatti, promozioni e novità. Sono consapevole di poter annullare l'iscrizione in qualsiasi momento.
           </label>
         </div>
@@ -142,7 +142,7 @@ if (Astro.request.method === "POST") {
               <Fragment set:html={image} />
             ) : (
               <Image
-                class="mx-auto rounded-md max-w-xs sm:max-w-sm object-contain shadow-xl"
+                class="mx-auto rounded-md max-w-xs sm:max-w-sm object-contain"
                 widths={[200, 400, 600, 800]} 
                 sizes="(max-width: 767px) 200px, (max-width: 1023px) 400px, (max-width: 2039px) 600px, 800px"
                 loading="eager"
